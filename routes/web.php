@@ -49,14 +49,12 @@ Route::get('productos', [ProductoController::class, 'index']);
 Route::get('productos/create', [ProductoController::class, 'create']);
 Route::get('productos/{producto}', [ProductoController::class, 'show']);
 
-
 // *** Grupos de rutas: ***
 Route::prefix('productos2') -> group( function(){
     Route::get('productos', [ProductoController::class, 'index']);
-Route::get('productos/create', [ProductoController::class, 'create']);
-Route::get('productos/{producto}', [ProductoController::class, 'show']);
+    Route::get('productos/create', [ProductoController::class, 'create']);
+    Route::get('productos/{producto}', [ProductoController::class, 'show']);
 });
-
 
 // ***Plantillas BLADE
 Route::get('principal', function () { return view('principal'); });

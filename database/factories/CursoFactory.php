@@ -10,10 +10,6 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 */
 class CursoFactory extends Factory{
 
-    /**
-     * Define the model's default state.
-    */
-
     protected $model = Curso::class;
 
     public function definition(): array{

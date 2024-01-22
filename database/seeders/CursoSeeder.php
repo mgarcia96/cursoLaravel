@@ -18,17 +18,17 @@ class CursoSeeder extends Seeder{
         //por cada Factory.
         //Curso::factory(50)->create();
 
-        // $curso = new Curso(); // instancia del modelo Curso
-        // $curso->name = "Laravel";
-        // $curso->descripcion = "El mejor framework de PHP";
-        // $curso->categoria = "Desarrollo Web";
-        // $curso->save();
+        $curso = new Curso(); // instancia del modelo Curso
+        $curso->name = "Laravel";
+        $curso->descripcion = "El mejor framework de PHP";
+        $curso->categoria = "Desarrollo Web";
+        $curso->save();
 
-        // $curso2 = new Curso(); // instancia del modelo Curso
-        // $curso2->name = "Laravel";
-        // $curso2->descripcion = "El mejor framework de PHP";
-        // $curso2->categoria = "Desarrollo Web";
-        // $curso2->save();
+        $curso2 = new Curso(); // instancia del modelo Curso
+        $curso2->name = "Laravel";
+        $curso2->descripcion = "El mejor framework de PHP";
+        $curso2->categoria = "Desarrollo Web";
+        $curso2->save();
 
         // $curso3 = new Curso(); // instancia del modelo Curso
         // $curso3->name = "Laravel";
